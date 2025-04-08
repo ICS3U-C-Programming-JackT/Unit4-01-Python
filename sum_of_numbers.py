@@ -22,7 +22,7 @@ def main():
             while counter < user_number:
                 counter += 1
                 sum += counter
-        else:
+        elif user_number != 0:
             while counter > user_number:
                 counter -= 1
                 sum += counter
